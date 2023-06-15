@@ -15,7 +15,7 @@ return {
       dim_inactive = { enabled = true, shade = "dark", percentage = 0.45 },
     },
 
-    -- Configure LazyVim to load gruvbox
+    -- Configure LazyVim to load colorscheme
     {
       "LazyVim/LazyVim",
       opts = {
