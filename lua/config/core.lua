@@ -9,7 +9,6 @@ vim.fn.sign_define(
 
 return {
     'LazyVim/LazyVim',
-    colorscheme = 'catppuccin',
     opts = {
         icons = {
             diagnostics = {
