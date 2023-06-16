@@ -2,7 +2,6 @@ return {
 	'mfussenegger/nvim-dap',
 	config = function()
 		local dap = require('dap')
-		local signs = require('config.icons.nerd')
 		dap.adapters.php = {
 			type = 'executable',
 			command = 'nodejs',
