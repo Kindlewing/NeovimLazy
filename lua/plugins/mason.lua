@@ -17,6 +17,7 @@ return {
 			'pyright',
 			'rustfmt',
 			'typescript-language-server',
+			'php-cs-fixer',
 			'tailwindcss-language-server',
 			'css-lsp',
 		},
