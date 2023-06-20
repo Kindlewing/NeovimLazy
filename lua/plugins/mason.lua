@@ -15,6 +15,7 @@ return {
 			'prettierd',
 			'rust-analyzer',
 			'pyright',
+			'black',
 			'rustfmt',
 			'typescript-language-server',
 			'php-cs-fixer',
