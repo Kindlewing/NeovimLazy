@@ -11,7 +11,6 @@ return {
 				nls.builtins.formatting.prettier,
 				nls.builtins.formatting.phpcsfixer,
 				nls.builtins.formatting.blue,
-				nls.builtins.diagnostics.flake8,
 			},
 		}
 	end,
