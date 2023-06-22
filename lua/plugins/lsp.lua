@@ -3,6 +3,16 @@ return {
 	opts = {
 		servers = {
 			tailwindcss = {},
+			pyright = {
+				python = {
+					analysis = {
+						autoSearchPaths = true,
+						diagnosticMode = 'off',
+						typeCheckingMode = 'off',
+						useLibraryCodeForTypes = true,
+					},
+				},
+			},
 			intelephense = {},
 			lua_ls = {
 				settings = {
