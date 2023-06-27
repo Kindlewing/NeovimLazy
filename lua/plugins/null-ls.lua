@@ -9,7 +9,7 @@ return {
 				nls.builtins.formatting.prettierd,
 				nls.builtins.formatting.stylua,
 				nls.builtins.formatting.prettier,
-				nls.builtins.formatting.phpcsfixer,
+				nls.builtins.formatting.phpcsfixer.with({ prefer_local = 'vendor/bin/php-cs-fixer' }),
 				nls.builtins.formatting.blue,
 				nls.builtins.diagnostics.flake8,
 			},
