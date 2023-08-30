@@ -14,6 +14,11 @@ return {
 				},
 			},
 			intelephense = {},
+
+			emmet_language_server = {
+				filetypes = { 'css', 'html' },
+			},
+
 			lua_ls = {
 				settings = {
 					Lua = {
