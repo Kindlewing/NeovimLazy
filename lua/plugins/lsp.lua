@@ -45,8 +45,10 @@ return {
 			},
 
 			html = {
-				filetypes = { 'html', 'twig' },
-				provideFormatter = true,
+				init_options = {
+					filetypes = { 'html', 'twig' },
+					provideFormatter = false,
+				},
 			},
 		},
 	},
