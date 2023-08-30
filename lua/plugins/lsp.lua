@@ -40,6 +40,9 @@ return {
 			emmet_language_server = function(_, opts)
 				require('lspconfig').emmet_language_server.setup({
 					filetypes = { 'twig', 'html', 'css' },
+					showexpandedabbreviation = 'always',
+					showabbreviationsuggestions = true,
+					showsuggestionsassnippets = false,
 				})
 			end,
 
