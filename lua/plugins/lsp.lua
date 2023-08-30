@@ -38,7 +38,7 @@ return {
 		},
 		setup = {
 			emmet_language_server = function(_, opts)
-				require('lspconfig').emmet_language_server.setup()
+				require('lspconfig').emmet_language_server.setup({})
 			end,
 		},
 	},
