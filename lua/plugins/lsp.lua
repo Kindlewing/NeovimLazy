@@ -47,7 +47,7 @@ return {
 			html = {
 				init_options = {
 					filetypes = { 'html', 'twig' },
-					provideFormatter = false,
+					provideFormatter = true,
 				},
 			},
 		},
