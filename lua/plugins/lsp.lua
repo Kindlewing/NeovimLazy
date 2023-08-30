@@ -14,13 +14,6 @@ return {
 				},
 			},
 			intelephense = {},
-			emmet_language_server = {
-				filetypes = { 'html', 'css', 'twig' },
-				init_options = {
-					showexpandedabbreviation = 'always',
-					showabbreviationsuggestions = true,
-				},
-			},
 
 			lua_ls = {
 				settings = {
@@ -42,14 +35,19 @@ return {
 					},
 				},
 			},
-		},
-		setup = {
-			html = function(_, opts)
-				require('lspconfig').html.setup({
-					filetypes = { 'html', 'twig' },
-					provideFormatter = true,
-				})
-			end,
+			--[[Web]]
+			emmet_language_server = {
+				filetypes = { 'html', 'css', 'twig' },
+				init_options = {
+					showexpandedabbreviation = 'always',
+					showabbreviationsuggestions = true,
+				},
+			},
+
+			html = {
+				filetypes = { 'html', 'twig' },
+				provideFormatter = true,
+			},
 		},
 	},
 }
