@@ -28,6 +28,7 @@ return {
 			'php-cs-fixer',
 			'tailwindcss-language-server',
 			'css-lsp',
+			'emmet-language-server',
 		},
 	},
 	---@param opts MasonSettings | {ensure_installed: string[]}
