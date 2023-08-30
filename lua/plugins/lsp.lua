@@ -42,6 +42,13 @@ return {
 					filetypes = { 'twig', 'html', 'css' },
 				})
 			end,
+
+			html = function(_, opts)
+				require('lspconfig').html.setup({
+					filetypes = { 'html', 'twig' },
+					provideFormatter = true,
+				})
+			end,
 		},
 	},
 }

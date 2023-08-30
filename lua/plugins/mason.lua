@@ -29,6 +29,7 @@ return {
 			'tailwindcss-language-server',
 			'css-lsp',
 			'emmet-language-server',
+			'html-lsp',
 		},
 	},
 	---@param opts MasonSettings | {ensure_installed: string[]}
