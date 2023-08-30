@@ -15,10 +15,6 @@ return {
 			},
 			intelephense = {},
 
-			emmet_language_server = {
-				filetypes = { 'css', 'html' },
-			},
-
 			lua_ls = {
 				settings = {
 					Lua = {
@@ -39,6 +35,11 @@ return {
 					},
 				},
 			},
+		},
+		setup = {
+			emmet_language_server = function(_, opts)
+				require('lspconfig').emmet_language_server.setup()
+			end,
 		},
 	},
 }
