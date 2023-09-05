@@ -28,6 +28,7 @@ return {
 			'php-cs-fixer',
 			'tailwindcss-language-server',
 			'css-lsp',
+			'cssmodules-language-server',
 			'emmet-language-server',
 			'html-lsp',
 		},
