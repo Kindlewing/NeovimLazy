@@ -37,7 +37,7 @@ return {
 			},
 			--[[Web]]
 			emmet_language_server = {
-				filetypes = { 'html', 'css', 'twig' },
+				filetypes = { 'html', 'css', 'twig', 'typescriptreact', 'javascriptreact' },
 				init_options = {
 					showexpandedabbreviation = 'always',
 					showabbreviationsuggestions = true,
