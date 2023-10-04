@@ -9,6 +9,7 @@ return {
 			['gz'] = { name = 'Surround' },
 			[']'] = { name = 'Next' },
 			['['] = { name = 'Prev' },
+			['<leader>m'] = { name = 'Markdown' },
 			['<leader><tab>'] = { name = 'Tabs' },
 			['<leader>b'] = { name = 'Buffer' },
 			['<leader>c'] = { name = 'Code' },

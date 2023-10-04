@@ -31,6 +31,11 @@ maps.n['<leader>to'] = {
 	desc = 'Show test output',
 }
 
+maps.n['<leader>mp'] = {
+	'<CMD>Glow<CR>',
+	desc = 'Preview',
+}
+
 -- Debugging
 maps.n['<leader>db'] = {
 	function()
