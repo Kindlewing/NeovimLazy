@@ -11,7 +11,7 @@ return {
 			},
 		},
 		ensure_installed = {
-			'lua-language-server',
+			'lua_ls',
 			'shellcheck',
 			'editorconfig-checker',
 			'beautysh',
