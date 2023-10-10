@@ -44,4 +44,5 @@ return {
 			end
 		end
 	end,
+    'williamboman/mason-lspconfig.nvim',
 }
