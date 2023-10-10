@@ -11,7 +11,7 @@ return {
 			},
 		},
 		ensure_installed = {
-			'stylua',
+			'lua_ls',
 			'shellcheck',
 			'editorconfig-checker',
 			'beautysh',
