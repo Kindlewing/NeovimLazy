@@ -36,6 +36,11 @@ maps.n['<leader>mp'] = {
 	desc = 'Preview',
 }
 
+maps.n['<leader>z'] = {
+	'<CMD>ZenMode<CR>',
+	desc = 'Zen mode',
+}
+
 -- Debugging
 maps.n['<leader>db'] = {
 	function()
