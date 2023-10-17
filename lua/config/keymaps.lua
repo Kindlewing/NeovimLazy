@@ -1,8 +1,6 @@
 local maps = { i = {}, n = {}, v = {}, t = {}, [''] = {} }
 local builtin = require('telescope.builtin')
-local telescopeExt = require('telescope').extensions
 local neovim = require('config.utilities')
-local tests = require('neotest')
 
 -- Telescope
 maps.n['<leader>ff'] = { builtin.find_files, desc = 'Find files' }
@@ -10,27 +8,7 @@ maps.n['<leader>fb'] = { '<CMD>Telescope file_browser path=%:p:h select_buffer=t
 maps.n['-'] = { require('oil').open, desc = 'File browser' }
 maps.n['<leader>e'] = { require('oil').open, desc = 'File browser' }
 
--- Tests
-maps.n['<leader>tf'] = {
-	function()
-		tests.run.run(vim.fn.expand('%'))
-	end,
-	desc = 'Run all tests in current file',
-}
-maps.n['<leader>ts'] = {
-	function()
-		tests.summary.toggle()
-	end,
-	desc = 'Show tests summary',
-}
-
-maps.n['<leader>to'] = {
-	function()
-		tests.output_panel.toggle()
-	end,
-	desc = 'Show test output',
-}
-
+-- Markdown
 maps.n['<leader>mp'] = {
 	'<CMD>Glow<CR>',
 	desc = 'Preview',

@@ -20,7 +20,6 @@ return {
 			['<leader>s'] = { name = 'Search' },
 			['<leader>u'] = { name = 'UI' },
 			['<leader>w'] = { name = 'Windows' },
-			['<leader>t'] = { name = 'Test' },
 			['<leader>x'] = { name = 'Diagnostics/Quickfix' },
 		},
 	},
