@@ -7,6 +7,8 @@ return {
 			'php',
 			'css',
 			'html',
+			'markdown',
+			'markdown_inline',
 		},
 		autotag = {
 			enable = true,
