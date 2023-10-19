@@ -23,6 +23,7 @@ return {
 			'rust-analyzer',
 			'pyright',
 			'blue',
+			'bashls',
 			'rustfmt',
 			'typescript-language-server',
 			'php-cs-fixer',
@@ -44,5 +45,5 @@ return {
 			end
 		end
 	end,
-    'williamboman/mason-lspconfig.nvim',
+	'williamboman/mason-lspconfig.nvim',
 }
