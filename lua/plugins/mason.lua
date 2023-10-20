@@ -23,7 +23,7 @@ return {
 			'rust-analyzer',
 			'pyright',
 			'blue',
-			'bash-language-server',
+			'bash_ls',
 			'rustfmt',
 			'typescript-language-server',
 			'php-cs-fixer',
