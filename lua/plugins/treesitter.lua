@@ -1,5 +1,8 @@
 return {
 	'nvim-treesitter/nvim-treesitter',
+	dependencies = {
+		'luckasRanarison/tree-sitter-hypr',
+	},
 	opts = {
 		ensure_installed = {
 			'tsx',
